@@ -9,9 +9,7 @@
 </head>
 <body>
     <div class="header"></div>
-
     <div class="container">
-
 <div class="section top">
     <p>This is not a real online service! You know you need something</p>
     <p>like this in your life to help you realize your deepest dreams.</p>
@@ -19,14 +17,49 @@
     <br>
     <p>You <em>know</em> you want to.</p>
 </div>
+    <div class="section middle">
+            <p>Let's do this!</p>
+            <br>
+        <form action="#" method="get">
+        <div class="form-grid">
 
+            <div class="form-group">
+            <label for="first_name">FIRST NAME</label>
+            <input type="text" id="first_name" name="first_name" required>
+            </div>
 
-    <div class="section middle">Middle</div>
+            <div class="form-group">
+            <label for="last_name">LAST NAME</label>
+            <input type="text" id="last_name" name="last_name" required>
+            </div>
 
+            <div class="form-group">
+            <label for="user_email">EMAIL</label>
+            <input type="email" id="user_email" name="user_email" required>
+            </div>
 
-    <div class="section bottom">Bottom</div>
+            <div class="form-group">
+            <label for="phone">PHONE NUMBER</label>
+            <input type="tel" id="phone" name="phone" required>
+            </div>
 
+            <div class="form-group">
+            <label for="password">PASSWORD</label>
+            <input type="password" id="password" name="password" required>
+            </div>
+
+            <div class="form-group">
+            <label for="confirm_password">CONFIRM PASSWORD</label>
+            <input type="password" id="confirm_password" name="confirm_password" required>
+            </div>
+        </div>
+        </form>
     </div>
+    <div class="section bottom">
+        <button>Create Account</button> 
+        <p>Already have an account? <a id="login" href="login.html">Log in</a></p>
+    </div>
+</div>
 
     <div class="footer"></div>
     
